@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App body {
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bg-dark {
+  background-color: #3f403c !important;
+  color: #e0dac9 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #e0dac9 !important;
+}
+
+body {
+  background-color: #e0dac9;
+  color: #3f403c;
+}
+
+.btn-semcoin {
+  background-color: #e0dac9;
+  /* Replace with your preferred background color */
+  color: #3f403c;
+  /* Replace with your preferred font color */
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-semcoin-dark {
+  background-color: #3f403c;
+  /* Replace with your preferred background color */
+  color: #e0dac9;
+  /* Replace with your preferred font color */
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-semcoin-dark:hover {
+  color: #e0dac9 !important;
+}
+
+.btn-semcoin-large {
+  font-size: 3vw;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+  /* background-color: lighten(#e0dac9, 10%); */
+  /* color: lighten(#3f403c, 10%); */
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.banking-card {
+  color: #e0dac9;
+}
+
+.withdraw-slider {
+  height: 100px;
+  background-color: #3f403c;
+}
+
+/* Styling the slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  /* Width of the thumb */
+  height: 24px;
+  /* Height of the thumb */
+  background: #e0dac9;
+  /* Green background */
+  cursor: pointer;
+  /* Cursor on hover */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  background: #e0dac9;
+  cursor: pointer;
+}
+
+/* Styling the slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 12px;
+  background: #e0dac9;
+  /* Light grey background */
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 12px;
+  background: #e0dac9;
+  cursor: pointer;
+}
